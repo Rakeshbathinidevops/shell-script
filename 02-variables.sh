@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$per1=ram
-$plac=guntur
+$PER1=ram
+$PLAC=guntur
 
-echo "my name is $per1 and I am from $plac"
+echo "my name is $PER1 and I am from $PER1"
