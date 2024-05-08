@@ -1,5 +1,3 @@
 #!/bin/bash
 
-USERID=$(id -u)
-
-echo "$USERID is your id"
+SCRIPT=$( echo $0 | cut -d "." -f1 )
