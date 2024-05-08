@@ -17,8 +17,8 @@ else
 fi
 
 dnf install mysql -y
-VALIDATE $? "installing mysql"
+VERIFY $? "installing mysql"
 
 dnf install git -y
-VALIDATE $? "installing git"
+VERIFY $? "installing git"
 echo "is script proceeding?"
