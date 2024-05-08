@@ -3,4 +3,4 @@
 PER1=ram
 PLAC=guntur
 
-echo "my name is $PER1 and I am from $PER1"
+echo "my name is $PER1 and I am from $PLAC"
