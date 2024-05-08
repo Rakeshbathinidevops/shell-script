@@ -24,9 +24,9 @@ else
 
 fi
 
-dnf install mysql -y | &>>$LOGFILE 
+dnf install mysql -y &>>$LOGFILE 
 VERIFY $? "installing mysql"
 
-dnf install git -y | &>>$LOGFILE
+dnf install git -y &>>$LOGFILE
 VERIFY $? "installing git"
 echo "is script proceeding?"
