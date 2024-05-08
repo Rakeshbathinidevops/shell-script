@@ -3,8 +3,12 @@
 USERID=$(id -u)
 
 VERIFY(){
-    echo "exit status: $1"
-    echo "what r u doing: $2"
+    if [ $1 -ne 0 ]
+    then
+        echo "$2 is failure"
+    else
+        echo "$2 is successful"
+    fi
 }
 
 if [ $USERID -ne 0 ]
