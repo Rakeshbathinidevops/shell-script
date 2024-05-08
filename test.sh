@@ -2,4 +2,4 @@
 
 USERID=$(id -u)
 
-echo "$USERDID is your id"
+echo "$USERID is your id"
