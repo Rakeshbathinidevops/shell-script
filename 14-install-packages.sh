@@ -31,7 +31,7 @@ for i in $@
 do
     echo " Installing $i"
     dnf list installed $i &>>$LOGFILE
-    if [ $? -eq 0]
+    if [ $? -eq 0 ]
     then
         echo -e "$i already installd.. $Y SKIPPING $N"
     else
