@@ -10,13 +10,13 @@ N="\e[0m"
 Y="\e[33m"
 
 VALIDATE(){
-if [ $1 -ne 0 ]
-then 
-    echo -e "$2 is $R FAILED $N"
-    exit1
-else
-    echo -e "$2 is $G SUCCESSFUL $N"
-fi
+    if [ $1 -ne 0 ]
+    then 
+        echo -e "$2 is $R FAILED $N"
+        exit1
+    else
+        echo -e "$2 is $G SUCCESSFUL $N"
+    fi
 }
 
 if [ $USERID -ne 0 ]
